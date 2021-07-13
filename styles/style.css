@@ -34,7 +34,10 @@ body {
     width: 168px;
     height: 44px;
     background-color: #E02C6D;
-    transition: width 2s, height 2s, transform 2s;
+    transition: width 2s,
+        height 2s,
+        transform 2s;
+    position: relative;
 }
 
 a {
@@ -58,6 +61,8 @@ a {
 .button-link:hover a {
     height: 50px;
     width: 50px;
+
+
 }
 
 .Player-man {
@@ -69,6 +74,13 @@ a {
 .Player-man img {
     width: 600px;
     height: 550px;
+}
+
+.Player-man:hover img {
+    width: 650px;
+    height: 600px;
+    transition: 2s;
+    transform: scale(1.25);
 }
 
 img {
@@ -124,6 +136,35 @@ img {
     font-size: 16px;
     line-height: 26px;
 
+}
+
+/* Brand Product */
+hr {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 35px;
+
+}
+
+
+.partners {
+    text-align: center;
+    font-size: 25px;
+}
+
+.Brand-product {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 12%;
+    margin-bottom: 80px;
+}
+
+.Brand-product img {
+    height: 100px;
+    width: 100px;
+}
+
+img {
+    width: 100%;
 }
 
 /*-------------------
