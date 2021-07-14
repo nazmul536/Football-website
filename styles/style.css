@@ -135,9 +135,7 @@ img {
 hr {
     border: 1px solid #D1D1D1;
     margin-bottom: 35px;
-
 }
-
 
 .partners {
     text-align: center;
@@ -211,8 +209,17 @@ footer {
         align-items: center;
     }
 
+    .Text {
+        margin-right: 20%;
+
+    }
+
     .Copa-America {
         font-size: 40px;
+    }
+
+    .button-link a {
+        padding-bottom: 100px;
     }
 
     .Player-man img {
