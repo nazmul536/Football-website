@@ -320,5 +320,17 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .Brand-product {
+        display: grid;
+        padding: 0 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .Brand-product {
+        display: grid;
+        padding: 25px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 
 }
