@@ -243,6 +243,7 @@ footer {
     }
 
     .players {
+        margin-right: 10px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
 
@@ -256,8 +257,10 @@ footer {
 
     .Brand-product {
         display: grid;
-        padding: 0 10px;
-        grid-template-columns: repeat(3, 1fr);
+        padding: 20px;
+        overflow: hidden;
+        margin-right: 10px;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     /* Foote Setction */
@@ -316,21 +319,15 @@ footer {
     }
 
     .players {
+        margin-right: 10px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
     .Brand-product {
         display: grid;
-        padding: 0 10px;
+        padding: 0 20px;
+        margin-right: 10px;
         grid-template-columns: repeat(3, 1fr);
     }
-
-    .Brand-product {
-        display: grid;
-        padding: 25px;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-
 }
